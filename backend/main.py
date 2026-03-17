@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from .model_handler import ObjectDetector
+from model_handler import ObjectDetector
 import shutil
 import os
 import uuid
